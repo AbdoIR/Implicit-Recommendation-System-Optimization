@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+opt-venv/
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter_config/
+.jupyter_runtime/
+
+# Local dataset
+dataset/*
+!dataset/.gitkeep
+
+# Generated processed data
+data/processed/*
+!data/processed/.gitkeep
+
+# Model checkpoints
+models/*
+!models/.gitkeep
+
+# Generated experiment outputs
+results/figures/*
+!results/figures/.gitkeep
+results/tables/*
+!results/tables/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
